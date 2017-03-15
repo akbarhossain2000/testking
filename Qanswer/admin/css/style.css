@@ -1,0 +1,199 @@
+
+body{}
+
+h1, h2, h3, h4, h5, h6{margin:0px; padding:0px;}
+
+ul{margin:0px; padding:0px;}
+
+li{list-style:none;}
+
+a{text-decoration:none;}
+
+a:hover{text-decoration:none;}
+
+p{
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-weight:300px;
+	line-height:26px;	
+}
+
+
+
+/*___ Start Header ___*/
+
+#header{
+	height:auto;
+	width:100%;
+	background-color:#01A0FE;
+	position:fixed;
+	z-index:999;
+}
+
+.logo{background-color:#fff; height:99px;}
+.logo a{}
+.logo a:hover{}
+.logo a img{height:99px;}
+
+.header-title{text-align:center;}
+.header-title h1
+{
+	margin-top:25px; 
+	color:#fff; 
+	font-size:40px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+
+.logout{margin-top:29px;}
+.logout a{display:block; color:#333333;}
+.logout a:hover{background-color:#014888; color:#fff}
+.btn-logout{background-color:#fff; font-weight:700;}
+
+/*___ End Header ___*/
+
+/*___ Start Main Body ___*/
+
+#main-body{height:auto; padding-top:99px;}
+
+.side-menu{margin-right:50px; height:auto; min-height:500px; background-color:#F0F0F0;}
+.side-menu ul#sidemenu{padding:10px 15px 10px 15px;}
+.side-menu ul#sidemenu li
+{
+	background-color:#034F9D; 
+	margin-bottom:5px;
+	border-radius:5px;
+}
+.side-menu ul#sidemenu li a
+{
+	display:block; 
+	padding:5px 10px; 
+	color:#fff; 
+	font-weight:700;
+	border-radius:5px;
+}
+.side-menu ul#sidemenu li a:hover{background-color:#01A0FE;}
+
+
+
+/*___ End Main Body ___*/
+
+
+
+/*___ Start Footer ___*/
+
+#bottom-footer{border-top:1px solid #ccc; background:#F3F3F3; bottom:0px; width:100%; position:fixed;}
+.footer{margin-left:15px;}
+.footer p{ margin-top:10px; margin-bottom:10px;  color:#00050A}
+
+
+/*___ End Footer ___*/
+
+
+
+/*___ Start main body other page ___*/
+
+.uiForm{margin-top:20px; margin-bottom:50px;}
+.input_box{width:50%}
+.show_data{width:70%}
+.uiForm2{margin-top:20px; margin-bottom:50px;}
+.c_button{margin-bottom:5px;}
+
+/*start view question and answer page*/
+
+/*.vendor-name{ margin-bottom:10px; width:100%; background-color:#2F9B49;}
+.vendor-name a{color:#fff;}
+.vendor-name h2{padding:5px 0px; text-align:center;}
+.div-border{ margin:0; padding:0px; border:1px solid #ccc; margin-bottom:10px;}
+.ex_ques_ans{height:auto;}
+.div-border-left{border-left:1px solid #ccc;}
+.ex_list{}
+.ques_ans{border-bottom:1px solid #ccc; margin-bottom:5px;}
+.ques_ans h4{margin-bottom:10px;}
+.ans{}*/
+
+.well
+{
+	margin-top:15px;
+}
+.well p img{height:300px; width:500px;}
+.well img{height:300px; width:500px;}
+.d-border{border-radius:0px;}
+.bg{background-color:#1F9B4F; color:#fff;}
+.use_padding{padding-top:15px;}
+.ques_ans
+{	
+	margin-left:20px;
+	height:450px;
+	overflow:auto;
+	margin-bottom:45px;
+}
+
+.input_box img{height:300px; width:500px;}
+.m_bottom{margin-bottom:0px; margin-top:5px;}
+
+.u-button{margin-bottom:10px;}
+
+/*end view question and answer page*/
+
+/*___ End main body other page ___*/
+
+
+/*___ Start login Page ___*/
+
+#login_header{background-color:#3399FF;}
+.top-header
+{
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.top-header h1{padding:20px 0px; color: #fff; font-size:40px;}
+
+#login_body{height:500px;}
+.form_login
+{
+	width:400px;
+	height:300px;
+	margin:0 auto;
+	margin-top:90px;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	
+	-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+box-shadow: 5px 5px 5px #ccc;
+}
+
+.panel-body{margin-top:20px;}
+.login-title
+{
+	height:50px;
+	background-color:#CBE8F6;
+	border-bottom:1px solid #ccc;
+}
+
+.login-title h3
+{
+	text-align:center; 
+	padding-top:10px;
+	font-size:20px;
+}
+
+.login_button
+{
+	margin-top:30px;
+	text-align:center;
+}
+.login_button button{width:100%;}
+
+
+
+.login-footer p{ margin-top:10px; margin-bottom:10px;  color:#00050A}
+
+/*___ End Login Page ___*/

@@ -1,0 +1,387 @@
+
+body
+{
+	background:#F3F3F3 fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:300;
+}
+
+h1, h2, h3, h4, h5, h6{margin:0px; padding:0px;}
+
+ul{margin:0px; padding:0px;}
+
+li{list-style:none;}
+
+a{text-decoration:none;}
+
+a:hover{text-decoration:none;}
+
+p{
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-weight:300px;
+	line-height:26px;	
+}
+/*___ Member Login header ___*/
+
+#mlogin_header
+{
+	height:auto;
+	overflow:hidden;
+	background:#07A2FF;
+	border-radius:0px;
+	text-align:right;
+}
+
+.user_heading{}
+ul.pd
+{
+	padding:15px 0px;
+}
+ul.pd li{display:inline-block;}
+ul.pd li p{color:#FFFFFF;}
+.m-mg{margin:0px;}
+.m-pad-mg{margin:0px; padding:0px;}
+.wd{width:170px;}
+
+/*___ End Member Login header ___*/
+
+/*___ Index Page CSS ___*/
+
+/* Top Header CSS */
+#top-header{border-bottom:1px solid #ccc; height:auto;}
+.shadow_box{margin:10px 0px; height:120px; background:#FCFCFC;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+box-shadow: 5px 5px 5px #ccc;}
+.logo{float:left; margin-left:5px;}
+.logo img{height:120px; }
+.social_icon{ margin:40px 0px;}
+.social_icon a{ display:block; height:40px; width:40px; float:left; margin-right:5px; 
+text-align:center; border-radius:2px; background:#3A5795; color:#fff; text-decoration:none}
+.social_icon a:last-child{ margin-right:10px;}
+.social_icon a i{ font-size:20px; padding-top:9px; }
+.social_icon a:hover{ background:#07A2FF; -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;}
+
+
+/* End Top Header CSS */
+
+/* Header CSS */
+#header{margin-top:5px; height:200px;}
+.header-banner{margin-left:0px; padding:0px;}
+.header-banner img{height:200px; width:1170px;}
+/* End Header CSS */
+
+
+/* Main Menu CSS */
+#mainmenu{margin-bottom:0px; margin-top:0px;}
+.menu_area{background-color:white; border-radius:5px 5px 0px 0px;}
+.navigation{}
+nav{ }
+.menu_box{width:15%; text-align:center;}
+nav ul#menu{ margin:0px; padding:0px; list-style:none;}
+nav ul#menu li{ float:left; margin-right:5px; background:#07A2FF; border-radius:15px 40px 0px 0px; margin-bottom:5px; margin-top:5px; }
+nav ul#menu li:last-child{  margin-right:0px; }
+nav ul#menu li a{ display:block; padding:5px 0px; 
+font-family: 'Roboto', sans-serif; font-weight:700;  color:#fff; font-size:14px}
+nav ul#menu li a:hover{background:#3A5795; border-radius:15px 40px 0px 0px;
+
+	-webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;}
+	
+	
+.search_box{margin:5px 0px;}
+
+
+/* End Main Menu CSS */
+
+/* Vendor Menu CSS */
+#vendormenu{margin:0px;}
+.vmenu_area{background-color:#07A2FF; border-top:5px solid #fff; border-radius:0px 0px 5px 5px;}
+
+#vendor-menu{ margin:0px; padding:0px; list-style:none; padding-left:10px;}
+#vendor-menu li{display:inline-block; margin-right:10px;}
+#vendor-menu li a{ display:block; padding:5px 0px; 
+font-family: 'Roboto', sans-serif; font-weight:bold;  font-size:16px; color:#fff;}
+#vendor-menu li a:hover{color:#000;}
+/* End Vendor Menu CSS */
+
+
+/* Main Body CSS */
+#mainbody{margin:0px; padding:0px; height:auto; margin-bottom:0px;}
+.mainbody-left{}
+.add-div{margin-top:10px; height:125px;}
+.add-div img{height:125px; width:100%}
+
+.mainbody-left-bottom {
+    height: auto;
+    background-color: #FCFCFC;
+    overflow: auto;
+}
+.exam{margin-top:10px; margin-left:10px; border-bottom:1px solid black; }
+.exam h2{padding-top:10px; margin:0px 0px 7px 0px;}
+.v_exam_name
+{
+	height:auto;
+	overflow:auto;
+	margin-left:10px;
+	padding-right:20px;
+}
+.vendor-name{margin-top:10px;}
+.vendor-name h4
+{ 
+	background-color:#07A2FF;
+	border-radius:10px 10px 0px 0px;
+	color:#fff;
+	padding:3px 0px;
+	padding-left:10px;
+}
+.exam-list{margin-bottom:10px;}
+.exam-list ul{padding-top: 10px; padding-left:20px;}
+.exam-list ul li{margin-bottom:5px; border-bottom:1px solid #ccc;}
+.exam-list ul li i{padding-right:5px;}
+.exam-list ul li a{color:#444444;}
+.exam-list ul li a:hover{color:#004895; font-weight:bold;}
+
+/*.exam_name{margin-top:10px; margin-left:15px;}
+.exam_name h2{padding-top:10px; margin:0px 0px 7px 0px;}
+.exam_name ul{margin:0px;}
+.ques-list ul li {
+  display: inline-block;
+  width: 23%;
+}
+.ques-list ul{margin:0; padding:0}
+.ques-list ul li:before { content:'\25CF'; margin-right:0.5em; }*/
+/*.exam_list{margin-top:10px; margin-left:5px; }
+.exam_list h2{padding-top:10px; margin:0px 0px 7px 0px;}
+.exam_list ul{padding-left:50px;}
+.exam_list ul li{float:left; width:25%;}*/
+
+.mainbody-right{margin-bottom:30px;}
+.add-div2{margin-top:10px; height:300px;}
+.add-div2 img{height:300px; width:100%}
+.mainbody-right-bottom{margin-top:20px; height:auto;}
+.recent{background-color:#3A5795; border-radius:5px;}
+.recent h3{padding-left:5px; color:#fff; font-weight:700;}
+.comment-area{}
+.comment-area ul#comments{margin:0px; padding:0px; list-style:none;}
+.comment-area ul#comments li{padding:5px 10px 0px;}
+.comment-area ul#comments li b{padding-right:5px;}
+.comment-area ul#comments li a{padding-left:5px;}
+.comment-area ul#comments li a:hover{}
+
+/* End Main Body CSS */
+
+
+/* Footer CSS */
+#bottom-footer{border-top:1px solid #ccc; background:#F3F3F3;}
+.footer{}
+.footer p{ margin-top:10px; color:#00050A}
+.marginbutton{ margin-bottom:10px;}
+/* End Footer CSS */
+/*___END index page CSS ___*/
+
+/*___ Exam Page CSS ___*/
+
+/* Top Header CSS */
+
+#ex-top-header{border-bottom:1px solid #ccc; height:auto;}
+.ex_shadow_box{margin:10px; height:120px; background:#FCFCFC;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+box-shadow: 5px 5px 5px #ccc;}
+.ex_title{margin:24px 0px; margin-left:20px; margin-right:10px; padding:0px; width:auto;}
+.ex_title h1{ margin-left:5px; padding:9px 0px 0px 0px; text-align:left;}
+.fixed_title{text-align:right;  border-top:1px solid #07A2FF; margin-right:1px; padding:5px 2px 0px 0px; font-size:11px; color:#07A2FF;}
+
+
+
+/* End Top Header CSS */
+
+
+/* Ex Menu CSS */
+#ex_menu{margin:0px;}
+.exmenu_area{background-color:#07A2FF; border-top:5px solid #fff; border-radius:0px 0px 5px 5px;}
+
+#ex-menu{ margin:0px; padding:0px; list-style:none; padding-left:10px;}
+#ex-menu li{display:inline-block; margin-right:7px;}
+#ex-menu li a{ display:block; text-decoration:none; padding:5px 0px; 
+font-family: 'Roboto', sans-serif; font-weight:700;  font-size:16px; color:#fff;}
+#ex-menu li a:hover{color:#000;}
+/* End Ex Menu CSS */
+
+
+/* Main Body CSS */
+.exam_list{margin-top:10px; margin-left:5px; }
+.exam_list h2{padding-top:10px; margin:0px 0px 7px 0px;}
+.exam_list ul{padding-left:50px;}
+.exam_list ul li{float:left; width:25%;}
+.mb_text{text-align:center; margin-top:20px;}
+
+/* End Main Body CSS */
+
+/*___ END Exam Page CSS ___*/
+
+
+/*___ Question Page CSS ___*/
+
+.ex_info{margin:10px 0px 0px 5px;}
+.ex_info h6{font-weight:700;}
+.ex_details{ margin-top:10px; border-top:1px solid #ccc;}
+.ex_details p{text-align:justify; font-size:13px; padding:0px 5px; font-weight:700;}
+.other_ex_list{margin:10px 5px;}
+.other_ex_list h6{font-weight:700;}
+.ex_list_details{margin-top:5px;}
+.ex_list_details ul{margin:0px; padding:0px; padding-left:20px;}
+.ex_list_details ul li{border-bottom:1px solid #ccc;}
+
+.question_list{background-color:#FCFCFC; height:auto; overflow:hidden; }
+.q_list_details{padding-top:50px; padding-left:5px; padding-right:5px; overflow:hidden;}
+.q_list_details h3{margin-bottom:10px;}
+.q_list_details img{padding-left:10px; height:300px; width:500px;}
+.q_list_details h3 a{color:#000; text-decoration:none;}
+.q_list_details h3 a:hover{color:#07A2FF;}
+.q_list_details a img{text-decoration:none; height:300px; width:100%;}
+/*.q_list_details a:hover{color:#07A2FF;}*/
+.date_comment{margin-top:10px; border-top:1px solid #ccc;}
+.date_comment p{margin:5px 5px;}
+.date_comment p a:last-child{float:right;}
+.date_comment h4{margin-top:35px;}
+.pagination_controls{margin:10px 5px;}
+
+
+
+/*___ END Question Page CSS ___*/
+
+
+/*___ Answer Page CSS ___*/
+
+.mright{margin-right:0px; padding-right:0px;}
+.ans_ex_list{margin:10px 5px;}
+.ans_ex_list h6{}
+.ans_ex_list_details{margin-top:5px;}
+.ans_ex_list_details ul{margin:0px; padding:0px; padding-left:20px; list-style:none}
+.ans_ex_list_details ul li{border-bottom:1px solid #ccc; padding-left:10px;}
+.ans_ex_list_details ul li a{text-decoration:none;}
+.ans_ex_list_details ul li a:hover{}
+
+.answer{margin:20px 0px; padding-left:15px;}
+.answer img{margin-bottom:20px; height:300px; width:580px;}
+.answer b{
+	font-weight:300;
+}
+.ans_button{text-align:right; padding-right:10px;}
+.ans_description{margin:0px; text-align:right; padding-right:10px;}
+
+.desc_show{margin-top:50px; margin-bottom:30px; padding-left:10px; display:none;}
+.desc_show h5{}
+.desc_show p{}
+.add_div3
+{
+	margin:5px 15px 10px 15px;
+	border-radius:5px;
+
+	
+}
+.add_div3 img{height:80px; width:100%; border-radius:5px;}
+.prev{float:left; margin:10px 0px;}
+.next{float:right; margin:10px 0px;}
+.comment_area{}
+.comment_area h2{}
+.dis{border-top:3px solid #07A2FF; background-color:#fff; border-radius:0px 0px 5px 5px;}
+.dis p{margin:0px; padding:5px 0px 5px 10px; font-weight:700; font-size:16px;}
+.view_comments{margin-top:10px; height:auto; background:#FCFCFC;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+box-shadow: 5px 5px 5px #ccc;}
+.cmnt_show{padding:10px 0px 5px 5px;}
+.cmnt_show h6{}
+.cmnt_show a{}
+.cmnt_show a:hover{}
+.cmnt_show p{margin:0px;}
+.re_cmnt_show{padding:5px 0px 5px 20px;}
+.rc_id{border-radius:0px; background:#569FF3; font-weight:bold;}
+.post_comments{margin-top:20px; margin-bottom:15px; height:auto; background:#FCFCFC;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 5px 5px 5px #ccc;
+-webkit-box-shadow: 5px 5px 5px #ccc;
+box-shadow: 5px 5px 5px #ccc;}
+.comment_form{padding:15px 10px 10px 5px;}
+.comment_form h2{margin-bottom:20px;}
+.form-group i{color:red;}
+
+
+
+
+/*___ END Answer Page CSS ___*/
+
+/*___ Start Member Area page ___*/
+
+.loginbox{}
+.mainbox{}
+.form-horizontal .checkbox {
+    margin-bottom: 15px;
+}
+/*#signupform .form-group label{text-align:left;}*/
+#captcha_view{display:none;}
+.human_check{padding-left:12px;}
+.inputcaptcha{
+	margin: 8px 0;
+    padding: 8px;
+	width: 151px !important;
+	float: left;
+}
+
+.imgcaptcha{
+	border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin: 6px 10px;
+    float: left;
+    
+}
+
+.refresh{
+	float: left;
+	margin: 14px 5px;
+	cursor: pointer;
+}
+
+/*___ End Member Area Page ___*/
+
+
+/*___ Start Member Dashboard page ___*/
+
+
+/*___ End Member Dashboard page ___*/
+
+/*___ Start M_Exam_Code Page ___*/
+
+.m_exam_list{}
+.m_exam_list h2{margin-top:20px; margin-left:8px;}
+.m_exam_list ul#m_ex_code{}
+.m_exam_list ul#m_ex_code li{}
+.m_exam_list ul#m_ex_code li ul{margin:10px 10px;}
+.m_exam_list ul#m_ex_code li:first-child ul{border-bottom:1px solid #ccc;}
+.m_exam_list ul#m_ex_code li ul li{display:inline-block; width:29%; text-align:center;}
+.m_exam_list ul#m_ex_code li ul li:first-child{width:40%; text-align:left;}
+
+/* start modal */
+
+.m_body {
+    padding: 8px 15px;
+    height: 50px;
+}
+.eform{margin:0px;}
+/* end modal */
+
+/*___ End M_Exam_Code Page ___*/

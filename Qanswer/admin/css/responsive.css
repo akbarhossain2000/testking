@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width : 991px){
+	/* Main Menu CSS */
+.logo{height:80px; text-align:center !important; margin-left:0px;}
+.logo a img{height:80px;}
+.header-title{width:100%;}
+.header-title h1 {
+		font-size:24px;
+		margin-top:15px;
+	}
+.logout{margin-top:15px; margin-bottom:10px;}
+#main-body{padding-top:181px;}
+
+.input_box{width:100%}
+.show_data{width:100%}
+/*___ END Question Page CSS ___*/
+}
+
+@media only screen and (max-width : 768px){
+
+	
+}
+
+@media only screen and (max-width : 640px){
+
+}
+
+@media only screen and (max-width : 480px){
+
+
+}
+@media only screen and (max-width : 420px){
+	.header-title h1 {
+		font-size:20px;
+	}
+	#main-body{padding-top:175px;}
+
+}
+@media only screen and (max-width : 350px){
+	.header-title h1 {
+		font-size:18px;
+	}
+	#main-body{padding-top:173px;}
+}
+
+@media only screen and (max-width : 320px){
+	.header-title h1 {
+		font-size:16px;
+	}
+	#main-body{padding-top:170px;}
+}

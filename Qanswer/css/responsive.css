@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width : 1199px){
+	/* Main Menu CSS */
+.menu_box{}		
+.wd{width:130px;}
+.vwd{width:33%;}
+
+/* End Main Menu CSS */
+
+.ex_shadow_box{height:auto;}
+.ex_title{}
+.ex_title h1{font-size:30px;}
+.fixed_title{text-align:right;  border-top:1px solid #07A2FF; margin-right:1px; padding:5px 2px 0px 0px; font-size:11px; color:#07A2FF;}
+}
+@media only screen and (max-width : 991px){
+	/* Main Menu CSS */
+.logo{text-align:center !important; width:100%; margin-left:0px;}
+.menu_box{width:18%;}	
+.search_box{width:100%; margin-left:5px; float:left !important;}
+.wd{width:300px;}
+.vwd{width:50%; float:left! important;}
+
+
+/* End Main Menu CSS */
+
+/*___ Question Page CSS ___*/
+
+.other_ex_list{margin-bottom:30px;}
+
+/*___ END Question Page CSS ___*/
+}
+
+@media only screen and (max-width : 768px){
+.navigation{width:100%;}
+
+.search_box .form-group {
+display: inline-block;
+margin-bottom: 0px;
+vertical-align: middle;
+}
+	
+}
+
+@media only screen and (max-width : 640px){
+
+.menu_box{width:30%;}
+	nav ul#menu li a{
+		font-size:14px;	
+	}
+}
+
+@media only screen and (max-width : 569px){
+.shadow_box{height:auto;}
+.logo{text-align:center !important; width:100%; margin-left:0px;}
+.logo img{height:80px; }
+.social_icon{float:left !important; width:100%; margin:10px 0px; padding:0px 0px;}
+.social_icon a{width:24%;}
+.social_icon a:first-child{ margin-left:2px;}
+.social_icon a:last-child{ margin-right:0px;}
+
+/* End Top Header CSS */
+
+.ex_title h1{font-size:28px;}
+}
+
+@media only screen and (max-width : 480px){
+	.social_icon a:first-child{ margin-left:0px;}
+	.social_icon a{width:24%;}
+	.menu_box{width:40%;}
+	.wd{width:200px;}
+	.exam h2{font-size:24px;}
+	.vwd{width:100%;}
+	.ex_title h1{font-size:24px;}
+	
+	/*___ Start M_Exam_Code Page ___*/
+
+	.m_exam_list ul#m_ex_code li ul li{width:30%;}
+	.m_exam_list ul#m_ex_code li ul li:first-child{width:35%;}
+
+	/*___ End M_Exam_Code Page ___*/
+}
+
+@media only screen and (max-width : 420px){
+
+	.social_icon a:first-child{ margin-left:6px;}
+	.social_icon a{width:23%;}
+	.menu_box{width:100%;}
+	.wd{width:150px;}
+	.exam h2{font-size:20px;}
+	.ex_title h1{font-size:20px;}
+	
+	
+	.question_list h2{font-size:18px;}
+	.q_list_details h3{font-size:18px;}
+	
+	.date_comment p a:last-child{width:100%; float:left !important;}
+}
+@media only screen and (max-width : 352px){
+
+	.ex_title h1{font-size:17px;}
+}
+
+@media only screen and (max-width : 320px){
+	.social_icon a:first-child{ margin-left:3px;}
+	.social_icon a{width:23%;}
+	.wd{width:150px;}
+	.exam h2{font-size:16px;}
+	.ex_title h1{font-size:14px;}
+	.fixed_title{font-size:9px;}
+}
